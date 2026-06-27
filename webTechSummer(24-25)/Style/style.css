@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+legend{
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #7878d7c0;
+    border-radius: 5px;
+}
+
+.container{
+    width: 100%;
+    max-width: 750px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+fieldset{
+    border: 2px solid #7878d7c0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+table{
+    width:100%;
+    border-spacing:10px 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="tel"]{
+    width:75%;
+    padding: 8px;
+    border:1px solid #bbb;
+    border-radius:5px;
+    outline:none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.buttons input{
+    background:#7878d7;
+    color:white;
+    border:none;
+    padding:10px 35px;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
